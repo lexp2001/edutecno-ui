@@ -7,8 +7,7 @@ body, html {
     padding: 0;
     font-family: Arial;
     height: 100hv;
-    
-
+    background-color: black ;
 }  
 
 .row {
@@ -17,10 +16,12 @@ body, html {
     height: 100vh;
     flex-wrap: nowrap;
 }
+.Uno  {   
+    background-color: #0D1D24;
+    width: 550px;
+    display: flex;
+    /*overflow-y: scroll;*/
 
-.Uno  { 
-    background-color: rgba(255, 105, 180, 0.192);
-    width: 360px;
 }
 
 ul{
@@ -28,6 +29,7 @@ ul{
     margin: 0px;
     list-style: none;
     color: ivory;
+    background-color:#081419;
 }
 
 ul li{
@@ -56,109 +58,52 @@ ul li a .icon {
     margin:0 auto 10px;
 }
 
-ul li a .icon {
+ul li a .icon{
     width: 120%;
     height: 100%;
     margin-top: 10px;
     line-height: 40px;
     font-size: 20px;
-    color: rgb(228, 222, 222);
+    color: rgb(204, 198, 198);
 }
 .name{
-
     color:rgb(228, 222, 222);
    
 }
 
-.line1 {
-    position: relative;
-    color: honeydew;
-    font-size: 25px;
-    margin-left: 314px;
-    margin-top: -350px;
+.caixa{
+
+    background-color:rgba(170, 165, 164, 0.678);
+    width: 215px;
+    left: 68px;
+    top: 55px;
+    height: 103px;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.678);
+         
 }
-.line2 {
-    position: relative;
-    color: honeydew;
-    font-size: 25px;
-    margin-left:314px;
-    margin-top: 100px;
-}
-.line3 {
-    position: relative;
-    color: honeydew;
-    font-size: 25px;
-    margin-left: 314px;
-    margin-top: 99px;
-}
-.line4 {
-    position: relative;
-    color: honeydew;
-    font-size: 25px;
-    margin-left: 314px;
-    margin-top: 99px;
+.escena-trans-efecto{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: -30px auto;
 }
 
-.caixa1 {
+.item-escena{
     
-        position: relative;
-        background-color:rgba(170, 165, 164, 0.678);
-        width: 215px;
-        left: 68px;
-        top: 55px;
-        height: 103px;
-        border-width: medium;
-        border-style: solid;
-        border-color: rgba(255, 255, 255, 0.678);
-        
-}
-.caixa2 {
-    
-    position: relative;
-    background-color:rgba(116, 13, 218, 0.651);
-    width: 215px;
-    left: 68px;
-    top: 72px;
-    height: 103px;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.699);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
     
 }
-.caixa3 {
-    
-    position: relative;
-    background-color:rgba(219, 44, 9, 0.575);
-    width: 215px;
-    left: 68px;
-    top: 90px;
-    height: 103px;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.596);
-    
-}
-.caixa4 {
-    
-    position: relative;
-    background-color:rgba(25, 197, 25, 0.582);
-    width: 215px;
-    left: 68px;
-    top: 110px;
-    height: 103px;
-    border-width: medium;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.705);
-    
+.escenas-iconos {
+    overflow-y: scroll;
+    display: flex;
+    max-height: calc(100% - 80px);
 }
 
-.mas {
-    position: relative;
-    color: honeydew;
-    font-size: 40px;
-    margin-left: 165px;
-    margin-top: 60px; 
-}
 .Dos {
     
     width: 100%;
@@ -168,7 +113,7 @@ ul li a .icon {
 }
 
 .main-top {
-    background-color: #333;
+    background-color: #081419;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -179,14 +124,13 @@ ul li a .icon {
 .foto {
 
     background-color: rgb(170, 165, 164);
-    width:600px;
-    height: 400px;
+    width:550px;
+    height: 300px;
 
 }
-
 .Tres {
   
-    background-color: rgba(255, 255, 0, 0.171);
+    background-color: #081419;
     height: 30%;
 
 }
@@ -195,7 +139,63 @@ ul li a .icon {
     height: 66px;
 }
 
+.circulo, .lineas {
+
+    color: rgb(116, 115, 115);
+    font-size: 20px;
  
+} 
+
+.reproducir {
+  
+    width: 955px;
+    height: 189px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    
+   
+}
+
+    .reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
+        width: 938px;
+        height: 60px;
+    }
+
+    .reproduccion-a {background-color: #0D1D24;}
+    .reproduccion-b{background-color: #11262f;}
+    .reproduccion-c{background-color: #0D1D24;}
+    .reproduccion-d{background-color: #11262f;}
+    
+.rojo, .azul, .verde, .naranja {
+
+    border-radius: 15px;
+    height:50px;
+}
+.rojo {
+    background-color: red;
+    width:800px;
+    margin-left: 100px;
+}
+.azul{
+    background-color: blue;
+    width:600px;
+    margin-left: 170px;
+}
+.verde{
+    background-color: green;
+    width:300px;
+    margin-left: 400px;
+}
+.naranja{
+    background-color: orangered;
+    width:900px;
+    margin-left: 30px;
+}
+
+
 
 
 
