@@ -18,7 +18,7 @@ body, html {
 }
 .Uno  {   
     background-color: #0D1D24;
-    width: 550px;
+    width: 520px;
     display: flex;
     /*overflow-y: scroll;*/
 
@@ -27,10 +27,11 @@ body, html {
 ul{
     padding: 0px;  
     margin: 0px;
-    width: 90px;
+    width: 116px;
     list-style: none;
     color: ivory;
     background-color:#050e13;
+    text-align: center;
 }
 
 ul li{
@@ -60,25 +61,24 @@ ul li a .icon {
 }
 
 ul li a .icon{
-    width: 50%;
+    filter: invert(90%);
+    width: 60%;
     height: 100%;
-    margin-top: 10px;
-    margin-left: 20px;
-    line-height: 40px;
+    margin-top: 30px;
     font-size: 20px;
     color: rgb(204, 198, 198);
 }
 .name{
     color:rgb(228, 222, 222);
-    margin-left: 10px;
+    font-family: Roboto;
+    font-size: 18px;;
 }
 
 .caixa-a, .caixa-b, .caixa-c, .caixa-d, .caixa-e, .caixa-f, .caixa-g{
 
-    width: 215px;
-    left: 68px;
-    top: 55px;
-    height: 103px;
+    width: 280px;
+    margin-right: 27px;
+    height: 140px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.678);
@@ -108,14 +108,14 @@ ul li a .icon{
 .item-escena{
     
     display: flex;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 20px 20px 0 20px;
     
 }
 .escenas-iconos {
     overflow-y: scroll;
     display: flex;
+    padding-top: 10px;
+    margin-top: 20px;
     max-height: calc(100% - 80px);
 }
 
@@ -147,8 +147,8 @@ ul li a .icon{
 .Tres {
   
     background-color: #081419;
-    height: 10%;
-
+    height: 30%;
+    overflow-y: scroll;
 }
 
 .top-icons {
@@ -157,30 +157,31 @@ ul li a .icon{
 
 .circulo, .lineas {
 
-    color: rgb(116, 115, 115);
-    font-size: 20px;
+    color: #dddddd;
+    font-size: 24px;
  
 } 
+.lineas .fa-bars {
+    margin-top: 30px;
+}
+
 
 .reproducir {
   
-    width: 955px;
-    height: 189px;
+    height: 100%;
     background-color: #081419;
-    margin-top: 7px;
     margin-left: 15px;
     border-radius: 10px;
-    overflow-y: scroll;
+    
     
    
 }
 
     .reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
-        width: 938px;
         height: 60px;
     }
 
-    .reproduccion-a {background-color: #0D1D24;margin-top: -10px;}
+    .reproduccion-a{background-color: #0D1D24;}
     .reproduccion-b{background-color: #11262f;}
     .reproduccion-c{background-color: #0D1D24;}
     .reproduccion-d{background-color: #11262f;}
@@ -194,7 +195,6 @@ ul li a .icon{
     background-color: red;
     width:700px;
     margin-left: 100px;
-    margin-top: -42px;
 }
 .azul{
     background-color: blue;
@@ -250,4 +250,35 @@ ul li a .icon{
     margin-top: 10px;  
 }
 
+
+/* Scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #899397; 
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a6b1b6; 
+    border-radius: 6px;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
