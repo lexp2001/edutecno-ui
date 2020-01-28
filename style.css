@@ -20,7 +20,7 @@ body, html {
     background-color: #0D1D24;
     width: 520px;
     display: flex;
-    /*overflow-y: scroll;*/
+    padding-right: 15px;
 
 }
 
@@ -103,12 +103,24 @@ ul li a .icon{
     border-width: 2px;
     border-style: solid;
     border-color: rgba(0, 139, 253, 0.678);
+    color: rgba(0, 139, 253, 0.678);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.escena-trans-efecto div {
+    margin-top: -10px;
+    line-height: 0;
+    font-size: 20px;
 }
 
 .item-escena{
     
     display: flex;
-    margin: 20px 20px 0 20px;
+    margin: 20px 0 0 20px;
     
 }
 .escenas-iconos {
@@ -116,7 +128,7 @@ ul li a .icon{
     display: flex;
     padding-top: 10px;
     margin-top: 20px;
-    max-height: calc(100% - 80px);
+    max-height: calc(100% - 120px);
 }
 
 .Dos {
@@ -218,8 +230,17 @@ ul li a .icon{
     margin-top: 100;
 }
 .agregar-escena {
-    width: 30px;
-    margin-left: 90px;
+    height: 100px;
+    color: #dddddd;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    padding-right: 55px;
+    padding-top: 20px;
+}
+
+.agregar-escena i{
+    font-size: 48px;
 }
 
 .microfono{
@@ -256,6 +277,7 @@ ul li a .icon{
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
+    margin-right: 20px;
   }
   
   /* Track */
