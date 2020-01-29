@@ -151,9 +151,16 @@ ul li a .icon{
 
 .foto {
 
-    background-image: url(fotos/escenamedio.jpg);
-    width:890px;
-    height:500px;
+    width: 80%; 
+    height: 80%;
+
+}
+
+.foto img {
+
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 
 }
 .Tres {
