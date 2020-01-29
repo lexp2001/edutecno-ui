@@ -165,9 +165,10 @@ ul li a .icon{
 }
 .Tres {
   
-    background-color: #081419;
     height: 30%;
     overflow-y: scroll;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .top-icons {
@@ -188,22 +189,20 @@ ul li a .icon{
 .reproducir {
   
     height: 100%;
-    background-color: #081419;
     margin-left: 15px;
-    border-radius: 10px;
-    
-    
    
 }
 
-    .reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
-        height: 60px;
-    }
+.reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
 
-    .reproduccion-a{background-color: #0D1D24;}
-    .reproduccion-b{background-color: #11262f;}
-    .reproduccion-c{background-color: #0D1D24;}
-    .reproduccion-d{background-color: #11262f;}
+.reproduccion-a{background-color: #0D1D24;}
+.reproduccion-b{background-color: #11262f;}
+.reproduccion-c{background-color: #0D1D24;}
+.reproduccion-d{background-color: #11262f;}
     
 .rojo, .azul, .verde, .naranja {
 
@@ -211,22 +210,22 @@ ul li a .icon{
     height:50px;
 }
 .rojo {
-    background-color: red;
+    background-color: #df184d;
     width:700px;
     margin-left: 100px;
 }
 .azul{
-    background-color: blue;
+    background-color: #1482ff;
     width:600px;
     margin-left: 170px;
 }
 .verde{
-    background-color: green;
+    background-color: #48c295;
     width:300px;
     margin-left: 400px;
 }
 .naranja{
-    background-color: orangered;
+    background-color: #e14848;
     width:900px;
     margin-left: 30px;
 }
