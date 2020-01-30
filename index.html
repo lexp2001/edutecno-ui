@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Casa</title>
+  <title>Edutecno</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -14,8 +14,7 @@
 
     <!--Comienzo de la cx1-->
 
-    <div class="Uno">
-
+    <div class="lateral">
 
       <!--Comienzo de menú de la parte derecha-->
       <ul>
@@ -69,14 +68,16 @@
 
       <!--Divs de elecciones-->
       <div class="contenedor-escenas">
-        <div class="escenas-iconos">
-          <div class="escenas">
+
+        <div class="escenas-iconos ocultar">
+          <div>
             <div class="item-escena">
-              <div class="caixa-a">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenaa.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -84,11 +85,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-b">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenab.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -96,11 +98,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-c">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenac.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -108,11 +111,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-d">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenad.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -120,11 +124,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-e">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenae.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -132,11 +137,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-f">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenaf.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -144,11 +150,12 @@
               </div>
             </div>
             <div class="item-escena">
-              <div class="caixa-g">
+              <div class="miniatura-escena">
                 <div class="escena-trans-efecto">
                   <div><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                   <div><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <img class="imagen-miniatura" src="fotos/escenag.jpg">
               </div>
               <div class="lineas">
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
@@ -160,9 +167,13 @@
 
         </div>
 
-        <div class="agregar-escena">
+        <div class="agregar-escena ocultar">
           <i class="fa fa-plus" aria-hidden="true"></i>
           <div>Añadir Escena</div>
+        </div>
+
+        <div>
+          Hola Joe
         </div>
 
 
@@ -177,14 +188,34 @@
 
     <!--Comienzo de la cx2 -->
 
-    <div class="Dos">
+    <div class="editor-escena">
       <div class="main-top">
         <div class="foto">
           <img src="./fotos/desk.jpg" style="object-fit: contain;">
         </div>
-        <!--<div class="menu-play"></div>-->
+
+
+        <!--<div class="menu-play">-->
+        <div class="menu-play">
+          <div class="rayita">
+            <i class="fa fa-minus" aria-hidden="true"></i>
+          </div>
+          <div class="play-pausa"> <span>00:00</span> &nbsp;
+            <i class="fa fa-step-backward" aria-hidden="true"></i> &nbsp;
+            <i class="fa fa-play" aria-hidden="true"></i> &nbsp;
+            <i class="fa fa-step-forward" aria-hidden="true"></i>
+          </div>
+          <div class="subir">
+            <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+          </div>
+
+        </div>
+
+
+
+        <!--</div>-->
       </div>
-      <div class="Tres">
+      <div class="linea-tiempo">
         <div class="reproducir">
           <div class="reproduccion-a" style="border-radius: 30px 0 0 0;">
             <span class="timeline-icons">
@@ -202,7 +233,7 @@
           </div>
           <div class="reproduccion-c">
             <span class="timeline-icons">
-              <span class="circulo-icon" ></span>
+              <span class="circulo-icon"></span>
               <span class="circulo-color" style="background-color: #48c295;"></span>
             </span>
             <div class="verde"></div>

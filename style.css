@@ -16,7 +16,7 @@ body, html {
     height: 100vh;
     flex-wrap: nowrap;
 }
-.Uno  {   
+.lateral  {   
     background-color: #0D1D24;
     width: 520px;
     display: flex;
@@ -74,7 +74,7 @@ ul li a .icon{
     font-size: 18px;;
 }
 
-.caixa-a, .caixa-b, .caixa-c, .caixa-d, .caixa-e, .caixa-f, .caixa-g{
+.miniatura-escena{
 
     width: 280px;
     margin-right: 27px;
@@ -82,18 +82,17 @@ ul li a .icon{
     border-width: 1px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.678);
-  
-         
+           
 }
-.caixa-a{background-image: url(fotos/escenaa.jpg);}
-.caixa-b{background-image: url(fotos/escenab.jpg);}
-.caixa-c{background-image: url(fotos/escenac.jpg);}
-.caixa-d{background-image: url(fotos/escenad.jpg);}
-.caixa-e{background-image: url(fotos/escenae.jpg);}
-.caixa-f{background-image: url(fotos/escenaf.jpg);}
-.caixa-g{background-image: url(fotos/escenag.jpg);}
+.imagen-miniatura{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
 
-
+.contenedor-escenas {
+    width: 350px;
+}
 
 .escena-trans-efecto{
     background-color: white;
@@ -109,6 +108,7 @@ ul li a .icon{
     align-items: center;
     justify-content: center;
     padding-top: 10px;
+    position: relative;
 }
 
 .escena-trans-efecto div {
@@ -131,7 +131,7 @@ ul li a .icon{
     max-height: calc(100% - 120px);
 }
 
-.Dos {
+.editor-escena {
     
     width: 100%;
     display: flex;
@@ -163,7 +163,7 @@ ul li a .icon{
     height: 100%;
 
 }
-.Tres {
+.linea-tiempo {
   
     height: 30%;
     overflow-y: scroll;
@@ -171,9 +171,6 @@ ul li a .icon{
     margin-right: 15px;
 }
 
-.top-icons {
-    height: 66px;
-}
 
 .circulo, .lineas {
 
@@ -185,6 +182,25 @@ ul li a .icon{
     margin-top: 30px;
 }
 
+.menu-play{
+    background-color: #050e13;
+    width: 800px;
+    height: 20px;
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rayita, .play-pausa, .subir {
+
+    color: #dddddd;
+    font-size: 20px;
+ 
+} 
+ span{
+     font-size: 15px;
+ }
 
 .reproducir {
   
@@ -230,12 +246,7 @@ ul li a .icon{
     width:72%;
     margin-left: 30px;
 }
-.menu-play {
-    background-color: rgb(0, 255, 55);
-    width:80px;
-    margin-left: 30px;
-    margin-top: 100;
-}
+
 .agregar-escena {
     height: 100px;
     color: #dddddd;
@@ -295,11 +306,6 @@ ul li a .icon{
     margin-top: 10px;
 }
 
-.menu-play{
-    background-color: antiquewhite;
-    width: 100px;
-    margin-top: -100px;
-}
 
 .circulo-a{
     background-color: rgb(230, 130, 0);
@@ -312,26 +318,30 @@ ul li a .icon{
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-    margin-right: 20px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #899397; 
-    border-radius: 6px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #a6b1b6; 
-    border-radius: 6px;
-  }
+width: 5px;
+margin-right: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #899397; 
+border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #a6b1b6; 
+border-radius: 6px;
+}
+
+.ocultar {
+    display: none;
+}
 
   @font-face {
     font-family: 'Roboto';
