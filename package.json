@@ -1,0 +1,23 @@
+{
+  "name": "edutecno-ui",
+  "version": "1.0.0",
+  "description": "Engine App",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexp2001/edutecno-ui.git"
+  },
+  "author": "Leonardo Barreto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexp2001/edutecno-ui/issues"
+  },
+  "homepage": "https://github.com/lexp2001/edutecno-ui#readme",
+  "devDependencies": {
+    "electron": "^7.1.10"
+  }
+}

@@ -18,19 +18,20 @@ body, html {
 }
 .Uno  {   
     background-color: #0D1D24;
-    width: 550px;
+    width: 520px;
     display: flex;
-    /*overflow-y: scroll;*/
+    padding-right: 15px;
 
 }
 
 ul{
     padding: 0px;  
     margin: 0px;
-    width: 90px;
+    width: 116px;
     list-style: none;
     color: ivory;
     background-color:#050e13;
+    text-align: center;
 }
 
 ul li{
@@ -60,33 +61,32 @@ ul li a .icon {
 }
 
 ul li a .icon{
-    width: 50%;
+    filter: invert(90%);
+    width: 60%;
     height: 100%;
-    margin-top: 10px;
-    margin-left: 20px;
-    line-height: 40px;
+    margin-top: 30px;
     font-size: 20px;
     color: rgb(204, 198, 198);
 }
 .name{
     color:rgb(228, 222, 222);
-    margin-left: 10px;
+    font-family: Roboto;
+    font-size: 18px;;
 }
 
 .caixa-a, .caixa-b, .caixa-c, .caixa-d, .caixa-e, .caixa-f, .caixa-g{
 
-    width: 215px;
-    left: 68px;
-    top: 55px;
-    height: 103px;
+    width: 280px;
+    margin-right: 27px;
+    height: 140px;
     border-width: 1px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.678);
   
          
 }
-.caixa-a {background-image: url(fotos/escenaa.jpg);}
-.caixa-b {background-image: url(fotos/escenab.jpg);}
+.caixa-a{background-image: url(fotos/escenaa.jpg);}
+.caixa-b{background-image: url(fotos/escenab.jpg);}
 .caixa-c{background-image: url(fotos/escenac.jpg);}
 .caixa-d{background-image: url(fotos/escenad.jpg);}
 .caixa-e{background-image: url(fotos/escenae.jpg);}
@@ -103,20 +103,32 @@ ul li a .icon{
     border-width: 2px;
     border-style: solid;
     border-color: rgba(0, 139, 253, 0.678);
+    color: rgba(0, 139, 253, 0.678);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.escena-trans-efecto div {
+    margin-top: -10px;
+    line-height: 0;
+    font-size: 20px;
 }
 
 .item-escena{
     
     display: flex;
-    align-items: center;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 20px 0 0 20px;
     
 }
 .escenas-iconos {
     overflow-y: scroll;
     display: flex;
-    max-height: calc(100% - 80px);
+    padding-top: 10px;
+    margin-top: 20px;
+    max-height: calc(100% - 120px);
 }
 
 .Dos {
@@ -139,16 +151,24 @@ ul li a .icon{
 
 .foto {
 
-    background-image: url(fotos/escenamedio.jpg);
-    width:890px;
-    height:500px;
+    width: 80%; 
+    height: 80%;
+
+}
+
+.foto img {
+
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 
 }
 .Tres {
   
-    background-color: #081419;
-    height: 10%;
-
+    height: 30%;
+    overflow-y: scroll;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
 .top-icons {
@@ -157,33 +177,33 @@ ul li a .icon{
 
 .circulo, .lineas {
 
-    color: rgb(116, 115, 115);
-    font-size: 20px;
+    color: #dddddd;
+    font-size: 24px;
  
 } 
+.lineas .fa-bars {
+    margin-top: 30px;
+}
+
 
 .reproducir {
   
-    width: 955px;
-    height: 189px;
-    background-color: #081419;
-    margin-top: 7px;
+    height: 100%;
     margin-left: 15px;
-    border-radius: 10px;
-    overflow-y: scroll;
-    
    
 }
 
-    .reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
-        width: 938px;
-        height: 60px;
-    }
+.reproduccion-a, .reproduccion-b, .reproduccion-c, .reproduccion-d {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
 
-    .reproduccion-a {background-color: #0D1D24;margin-top: -10px;}
-    .reproduccion-b{background-color: #11262f;}
-    .reproduccion-c{background-color: #0D1D24;}
-    .reproduccion-d{background-color: #11262f;}
+.reproduccion-a{background-color: #0D1D24;}
+.reproduccion-b{background-color: #11262f;}
+.reproduccion-c{background-color: #0D1D24;}
+.reproduccion-d{background-color: #11262f;}
     
 .rojo, .azul, .verde, .naranja {
 
@@ -191,24 +211,23 @@ ul li a .icon{
     height:50px;
 }
 .rojo {
-    background-color: red;
-    width:700px;
+    background-color: #df184d;
+    width: 70%;
     margin-left: 100px;
-    margin-top: -42px;
 }
 .azul{
-    background-color: blue;
-    width:600px;
+    background-color: #1482ff;
+    width: 70%;
     margin-left: 170px;
 }
 .verde{
-    background-color: green;
-    width:300px;
+    background-color: #48c295;
+    width: 35%;
     margin-left: 400px;
 }
 .naranja{
-    background-color: orangered;
-    width:900px;
+    background-color: #e14848;
+    width:72%;
     margin-left: 30px;
 }
 .menu-play {
@@ -218,15 +237,53 @@ ul li a .icon{
     margin-top: 100;
 }
 .agregar-escena {
-    width: 30px;
-    margin-left: 90px;
+    height: 100px;
+    color: #dddddd;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    padding-right: 55px;
+    padding-top: 20px;
+}
+
+.agregar-escena i{
+    font-size: 48px;
+}
+
+.timeline-icons {
+    width: 120px;
+    min-width: 120px;
+    height: 100%;
+    border-right: 1px solid #00000089;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    font-size: 40px;
+    color: #dddddd;
 }
 
 .microfono{
-    width: 25px;
+    width: 30px;
     margin-left: 30px;
     margin-top: 30px;
 }
+.circulo-color {
+    width: 24px;
+    height: 24px;
+    background-color: #df184d;
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-left: -2px;
+}
+
+.circulo-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #c0c0c034;
+    border-radius: 50%;
+
+}
+
 .sonido {
     width: 15px;
     margin-left: 70px;
@@ -250,4 +307,36 @@ ul li a .icon{
     margin-top: 10px;  
 }
 
+
+/* Scrollbar styles */
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    margin-right: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #899397; 
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a6b1b6; 
+    border-radius: 6px;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
