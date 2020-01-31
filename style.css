@@ -397,10 +397,9 @@ border-radius: 6px;
 
 .contenedor-fotos{
     overflow-y: scroll;
-  
     padding-top: 10px;
-    margin-top: 20px;
-    max-height: calc(100% - 70px);
+    padding-bottom: 20px;
+    max-height: calc(100% - 90px);
 }
 .texto-mis-fondos{
     width: 150px;
@@ -419,12 +418,13 @@ border-radius: 6px;
     height: 85px;
     margin-top: 10px;
     margin-left: 7px;
- 
+    object-fit: cover;
 }
- .fa-angle-down{
-     font-size: 30px;
- }
- .anadir-fondo {
+
+.fa-angle-down{
+    font-size: 30px;
+}
+.anadir-fondo {
     height: 100px;
     color: #dddddd;
     text-align: center;
@@ -435,6 +435,9 @@ border-radius: 6px;
 
 }
 
+.contenedor-input-color {
+    height: 90px;
+}
 
 
 
