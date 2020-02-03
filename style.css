@@ -71,7 +71,7 @@ ul li a .icon{
 .name{
     color:rgb(228, 222, 222);
     font-family: Roboto;
-    font-size: 18px;;
+    font-size: 18px;
 }
 
 .miniatura-escena{
@@ -407,11 +407,11 @@ border-radius: 6px;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 100px;
     font-size: 18px;
     color: white;
 }
 
+.texto-mis-fondos{ margin-left: 100px;}
 
 .img{
     width: 150px;
@@ -460,8 +460,78 @@ border-radius: 6px;
     margin-left: 20px;
     object-fit: cover;
 }
+.mis-audios{
+    margin-top: 30px;
+
+}
+
+.fondo-musical-uno, .fondo-musical-dos{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+ 
+}
+.opcion-subir-audio{
+    width: 300px;
+    height: 300px;
+    border: dashed #dddddd;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+    
+    
+
+.fa-cloud-upload {
+   
+    color: white;
+    font-size: 200px;
+}
 
 
+
+.seleccionar-mp3 {
+    width:215px;
+    height: 50px;
+    background-color: #5bc6f8;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-left: 40px;
+    
+}
+.contenedor-opciones-audio {
+    padding-left: 15px;
+}
+
+.texto-mis-audios, .texto-subir-audios {
+
+    padding-top: 25px;
+    margin-left: 70px;
+} 
+ .fondos-musicales, .numeros {
+     color: rgb(121, 121, 121);
+ }
+ .texto-arrastra, .texto-o, .texto-seleccionar{
+    color: white;
+   
+}
+.texto-arrastra
+{ margin-left: 100px;
+    margin-top: 100px;
+}
+.texto-o{
+    margin-left: 150px;
+    
+}
+
+
+
+.fa-trash{
+    color:rgb(121, 121, 121);
+    
+}
 
 
 
@@ -471,4 +541,3 @@ border-radius: 6px;
     font-weight: normal;
     font-style: normal;
 }
-
