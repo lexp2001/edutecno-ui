@@ -466,12 +466,12 @@ border-radius: 6px;
 }
 
 .fondo-musical-uno, .fondo-musical-dos{
-    width: 250px;
+    width: 290px;
     height: 70px;
     background-color: white;
     margin-top: 20px;
     margin-left: 20px;
-    border-radius: 30px;
+    border-radius: 25px;
  
 }
 .opcion-subir-audio{
@@ -485,9 +485,9 @@ border-radius: 6px;
     
 
 .fa-cloud-upload {
-   
+    position: relative;
     color: white;
-    font-size: 200px;
+    
 }
 
 
@@ -497,8 +497,9 @@ border-radius: 6px;
     height: 50px;
     background-color: #5bc6f8;
     border-radius: 30px;
-    margin-top: 150px;
+    margin-top: 15px;
     margin-left: 40px;
+    position: relative;
     
 }
 .contenedor-opciones-audio {
@@ -511,26 +512,37 @@ border-radius: 6px;
     margin-left: 70px;
 } 
  .fondos-musicales, .numeros {
-     color: rgb(121, 121, 121);
+     position: relative;
+     color: rgb(121, 121, 121);  
  }
+ .fondos-musicales{
+    margin-left: 55px;
+    margin-top: -32px ;
+ }
+ .numeros{
+     margin-left: 200px;
+     margin-top: -15px;
+ }
+
  .texto-arrastra, .texto-o, .texto-seleccionar{
-    color: white;
-   
+    color: white; 
 }
-.texto-arrastra
-{ margin-left: 100px;
-    margin-top: 100px;
+.texto-arrastra .texto-o { 
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px;
 }
-.texto-o{
-    margin-left: 150px;
-    
+.texto-arrastra {margin-left: 70px;}
+.texto-o{margin-left: 150px;}
+
+.texto-seleccionar{
+    position: relative;
+    margin-left: 55px;
+    margin-top: -28px;
 }
-
-
-
-.fa-trash{
-    color:rgb(121, 121, 121);
-    
+.barra-reproduccion{
+    position: relative;
+    margin-top: -30px;
 }
 
 
