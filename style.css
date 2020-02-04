@@ -24,7 +24,7 @@ body, html {
 
 }
 
-ul{
+.menu-opciones{
     padding: 0px;  
     margin: 0px;
     width: 116px;
@@ -34,7 +34,7 @@ ul{
     text-align: center;
 }
 
-ul li{
+.menu-opciones li{
     
     display: inline;
     list-style: none;
@@ -42,17 +42,17 @@ ul li{
     margin-left: 2px;
 }
 
-ul li:last-child {
+.menu-opciones li:last-child {
     border-right: none;
 }
 
-ul li a {
+.menu-opciones li a {
     text-decoration: none;
     padding: 2px 10px;
     display: inline-block;
 }
 
-ul li a .icon {
+.menu-opciones li a .icon {
     width: 40px;
     height: 40px;
     text-align: center;
@@ -60,7 +60,7 @@ ul li a .icon {
     margin:0 auto 10px;
 }
 
-ul li a .icon{
+.menu-opciones li a .icon{
     filter: invert(90%);
     width: 60%;
     height: 100%;
@@ -507,6 +507,8 @@ border-radius: 6px;
 .texto-mis-audios, .texto-subir-audios {
 
     padding-top: 25px;
+
+
     margin-left: 70px;
 } 
  .fondos-musicales, .numeros {
@@ -557,9 +559,37 @@ border-radius: 6px;
 .texto-subir-audios{  margin-top: 7px;}
 
 
+.texto-titulo{
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.texto-anadir-texto{
+    color: white;
+    font-size: 15px;
+    padding-left: 115px;
+    
+}
+
+.texto-fuentes{
+    color: white;
+    font-size: 17px;
+    padding-top: 50px;
+    padding-left: 130px;
+
+}
+.opciones-fuentes{
+    list-style: none;
+}
+
+
+
   @font-face {
     font-family: 'Roboto';
     src: url('./fonts/roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
