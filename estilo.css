@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 100hv;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-wrap: nowrap;
+    background-color: #0D1D24;
+}
+.uno  {   
+    background-color: #0D1D24;
+    width: 500px;
+    
+}
+.dos {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #050e13;
+    border-radius: 30px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(188, 196, 214);
+    margin-top: 90px;
+    margin-left: 60px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+.texto-logo {
+    color: white;
+    font-size: 25px;
+    margin-top: -70px;
+    margin-left: 135px;
+}
+.regresar {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(38, 152, 197);
+    margin-top: 40px;
+    margin-left: 90px; 
+    font-size: 15px;
+    color: white;
+    
+    border-radius: 20px;
+
+}
+.manager {
+    margin-top: 500px;
+}
+.nombre-nuevo-proyecto{
+    width: 800px;
+    height: 50px;
+    background-color: black;
+    margin-left: 100px;
+}
+.opcion-nuevo-proyecto{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(182, 109, 0);
+    margin-left: 200px;
+}
+.opcion-guion{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 100px;
+}
+.pegar-guion{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+}
+.texto-guion{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    margin-top: 250px;
+}
+.botones-opciones{
+    width: 100px;
+    height: 50px;
+    background-color: cadetblue;
+}
+.boton-anadir-keyword{
+    width: 100px;
+    height: 50px;
+    background-color: chartreuse;
+}
+.boton-crear-proyecto{
+    width: 100px;
+    height: 50px;
+    background-color: chocolate;
+}
