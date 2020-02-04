@@ -401,7 +401,7 @@ border-radius: 6px;
     padding-bottom: 20px;
     max-height: calc(100% - 90px);
 }
-.texto-mis-fondos, .texto-mis-audios, .texto-subir-audios{
+.texto-mis-fondos {
     width: 150px;
     height: 30px;
     display: inline-flex;
@@ -479,7 +479,7 @@ border-radius: 6px;
     height: 300px;
     border: dashed #dddddd;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
     
     
@@ -545,6 +545,18 @@ border-radius: 6px;
     margin-top: -30px;
 }
 
+.texto-mis-audios, .texto-subir-audios{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.texto-mis-audios{margin-top: -30px;}
+.texto-subir-audios{  margin-top: 7px;}
 
 
   @font-face {
