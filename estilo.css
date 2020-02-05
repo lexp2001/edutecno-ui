@@ -34,7 +34,7 @@ body, html {
     width: 60px;
     height: 60px;
     background-color: rgb(188, 196, 214);
-    margin-top: 90px;
+    margin-top: 110px;
     margin-left: 60px;
     border-radius: 50px;
     border-width: 2px;
@@ -52,57 +52,66 @@ body, html {
     height: 40px;
     background-color: rgb(38, 152, 197);
     margin-top: 40px;
-    margin-left: 90px; 
+    margin-left: 110px; 
     font-size: 15px;
     color: white;
-    
     border-radius: 20px;
 
 }
-.manager {
-    margin-top: 500px;
-}
+
+
 .nombre-nuevo-proyecto{
-    width: 800px;
+  
     height: 50px;
-    background-color: black;
+    margin-top: 70px;
     margin-left: 100px;
+   
 }
 .opcion-nuevo-proyecto{
-    width: 100px;
-    height: 50px;
-    background-color: rgb(182, 109, 0);
-    margin-left: 200px;
+    width: 420px;
+    margin-left: 115px;
+    margin-top: 20px;
 }
+
+
+
+.texto-guion{
+    width: 580px;
+    height: 150px;
+    margin-left: 100px;
+    background-color: rgba(85, 81, 81, 0.329);
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid rgb(102, 101, 101);
+}
+
 .opcion-guion{
-    width: 100px;
-    height: 50px;
-    background-color: blue;
+    margin-top: 40px;
+}
+
+.boton-keywords, .boton-crear-proyecto{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgb(129, 127, 127);
+     
+ 
+}
+.boton-keywords{
+    background-color: #050e13;
+    margin-top: 40px;
     margin-left: 100px;
 }
-.pegar-guion{
-    width: 100px;
-    height: 50px;
-    background-color: blueviolet;
-}
-.texto-guion{
-    width: 400px;
-    height: 200px;
-    background-color: brown;
-    margin-top: 250px;
-}
-.botones-opciones{
-    width: 100px;
-    height: 50px;
-    background-color: cadetblue;
-}
-.boton-anadir-keyword{
-    width: 100px;
-    height: 50px;
-    background-color: chartreuse;
-}
 .boton-crear-proyecto{
-    width: 100px;
-    height: 50px;
-    background-color: chocolate;
+  
+    background-color: rgb(165, 218, 218);
+    margin-left: 530px;
+    margin-top: -40px;
+    
 }
+
+
+
+
+
