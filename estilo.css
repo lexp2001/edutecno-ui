@@ -111,7 +111,50 @@ body, html {
     
 }
 
+.ocultar {
+    display: none;
+}
 
+.opcion-anade-keywords {
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 70px;
+}
 
+.opcion-puntos, .opcion-negocios,  .opcion-start-up{
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
 
+.opcion-puntos{
+    background-color: rgba(85, 81, 81, 0.329);
+    border: 1px solid rgb(102, 101, 101);
+    margin-left: 90px;
+    width: 100px;
+    height: 35px; 
+    margin-top: 30px;
+    
+}
 
+.opcion-negocios{
+    background-color: rgb(38, 152, 197);
+    margin-left: 220px;
+    margin-top: -35px;
+    width: 130px;
+    height: 35px;
+}
+
+.opcion-start-up{
+    background-color:  rgb(38, 152, 197);
+    margin-top: -35px;
+    margin-left: 380px;
+    width: 130px;
+}
+.opciones-sugerencias{
+    
+    float: left;
+    color: white;
+   
+}

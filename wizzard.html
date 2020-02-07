@@ -1,66 +1,165 @@
 <!doctype html>
 <div lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>dashboard</title>
-  <link rel="stylesheet" type="text/css" href="estilo.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>dashboard</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
 
-<body>
-  <div class="row">
-    <div class="uno">
-      <div class="logo"></div>
-      <div class="texto-logo">
-        <h2>Logo</h2>
-      </div>
-      <div class="regresar"><nav style="padding-left: 15px; padding-top: 10px;">Regresar</nav></div>
-      <nav style="color: white; padding-left: 100px; padding-top: 350px;">Gestor de Assets</nav>
-       
-      </nav>
-
-    </div>
-
-    <div class="dos">
-    <div class="datos-proyecto">
-      <div class="nombre-nuevo-proyecto">
-        <nav style="color: white; padding-top: 15px; font-size:30px;">¿Cuál es el nombre de tu proyecto?</nav>
-      </div>
-        <div class="opcion-nuevo-proyecto">
-          
-          <nav style="color: white; padding-top: 30px;font-size: 20px;">Nuevo Proyecto</nav>
+  <body>
+    <div class="row">
+      <div class="uno">
+        <div class="logo"></div>
+        <div class="texto-logo">
+          <h2>Logo</h2>
         </div>
+        <div class="regresar">
+          <nav style="padding-left: 15px; padding-top: 10px;">Regresar</nav>
         </div>
+        <nav style="color: white; padding-left: 100px; padding-top: 350px;">Gestor de Assets</nav>
 
-      
-   
+        </nav>
 
-        <div class="opcion-guion">
-          <div class="pegar-guion" style="margin-left: 100px;">
-            <nav style="color: white; padding-top: 15px; font-size:30px;">Pega el guión en el siguiente campo</nav>
+      </div>
+
+      <div class="dos">
+
+        <div class="wizard ocultar">
+          <div class="datos-proyecto ">
+            <div class="nombre-nuevo-proyecto">
+              <nav style="color: white; padding-top: 15px; font-size:30px;">¿Cuál es el nombre de tu proyecto?</nav>
+            </div>
+            <div class="opcion-nuevo-proyecto">
+
+              <nav style="color: white; padding-top: 30px;font-size: 20px;">Nuevo Proyecto</nav>
+            </div>
           </div>
+
+          <div class="opcion-guion">
+            <div class="pegar-guion" style="margin-left: 100px;">
+              <nav style="color: white; padding-top: 15px; font-size:30px;">Pega el guión en el siguiente campo</nav>
+            </div>
             <div class="texto-guion">
-              <nav style="color: white; text-align: center;margin-top: 10px;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</nav>
+              <nav style="color: white; text-align: center;margin-top: 10px;">"Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </nav>
             </div>
-            </div>
+          </div>
 
-            <div class="opcion-botones">
-              <div class="boton-keywords">
-                <nav style="color: white; margin-top: 10px;"> Añadir Keywords</nav>
-              </div>
-              <div class="boton-crear-proyecto">
-                <nav style="color: white; margin-top: 10px;">Crear Proyecto</nav>
-              </div>
+          <div class="opcion-botones">
+            <div class="boton-keywords">
+              <nav style="color: white; margin-top: 10px;"> Añadir Keywords</nav>
             </div>
+            <div class="boton-crear-proyecto">
+              <nav style="color: white; margin-top: 10px;">Crear Proyecto</nav>
+            </div>
+          </div>
 
-     
+
+        </div>
+
+        <div class="keywords">
+
+          <div class="opcion-anade-keywords">
+            <nav>Añade Keywords</nav>
+          </div>
+
+          <div class="opciones-keywords">
+            <div class="opcion-puntos">
+              <nav style="margin-left: 45px;">...</nav>
+              <i style="margin-left: 80px;" class="fa fa-pencil" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-negocios">
+              <nav>Negocios</nav>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-start-up">
+              <nav>Sart Up</nav>
+              <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+  
+          </div>
+
+          <div class="opciones-sugerencias">
+            <div class="opcion-exito">
+              <nav>Éxito</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+           
+            <div class="opcion-presupuesto">
+              <nav>Presupuesto</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="ventas">
+              <nav>Ventas</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-mercado">
+              <nav>Mecado</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-mercado">
+              <nav>Mercado</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-exito">
+              <nav>Éxito</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-presupuesto">
+              <nav>Presupuesto</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="ventas">
+              <nav>Ventas</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-mercado">
+              <nav>Mecado</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-mercado">
+              <nav>Mercado</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-exito">
+              <nav>Éxito</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-presupuesto">
+              <nav>Presupuesto</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="ventas">
+              <nav>Ventas</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="opcion-mercado">
+              <nav>Mecado</nav>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+  
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
     </div>
-    
- 
+  </body>
 
-
-
-  </div>
-</body>
-
-</html
+  </html>
