@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 100hv;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-wrap: nowrap;
+    background-color: #0D1D24;
+}
+.uno  {   
+    background-color: #0D1D24;
+    width: 500px;
+    
+}
+.sonidos {
+    
+    width: 100%;
+    background-color: #050e13;
+    border-radius: 30px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(188, 196, 214);
+    margin-top: 110px;
+    margin-left: 80px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+.texto-logo {
+    color: white;
+    font-size: 25px;
+    margin-top: -70px;
+    margin-left: 155px;
+}
+.regresar {
+    width: 200px;
+    height: 45px;
+    background-color: #5bc6f8;
+    margin-top: 40px;
+    margin-left: 90px; 
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+
+}
+.fondo-musical-uno, .fondo-musical-dos{
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 20px;
+
+ 
+ 
+}
+.fondo-musical-uno{ border: #5bc6f8 solid 2px;}
+
+ul {
+    list-style: none;
+    color: white;
+    margin-left: 40px;
+  
+}
+
+
+li{
+    display: inline-block;
+    width: 100px;
+}
+.boton-nuevo {
+    background-color: #5bc6f8;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 620px;
+}
+.fa-trash {
+    font-size: 20px;
+}
