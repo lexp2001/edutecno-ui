@@ -122,6 +122,20 @@ body, html {
     margin-left: 70px;
 }
 
+.opciones-keywords div {
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    background-color: rgb(52, 191, 247);
+    float: left;
+    margin-left: 35px;
+}
+
+.opciones-keywords div i{
+    margin-left: 15px;
+}
+
 .opcion-puntos, .opcion-negocios,  .opcion-start-up{
     border-radius: 15px;
     color: white;

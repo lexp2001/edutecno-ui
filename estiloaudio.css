@@ -66,8 +66,14 @@ body, html {
  
  
 }
-.fondo-musical-uno{ border: #5bc6f8 solid 2px;}
+.fondo-musical-uno{ 
+    border: #5bc6f8 solid 2px;
+}
 
+.fondo-musical-uno i, .fondo-musical-dos i
+{ 
+    font-size: 25px;
+} 
 ul {
     list-style: none;
     color: white;
