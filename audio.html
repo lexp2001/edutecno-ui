@@ -40,51 +40,59 @@
 
                 <div class="fondos-musicales">
                         <div class="fondo-musical-uno">
-                            <i class="fa fa-pause" aria-hidden="true"
-                            style="position: relative;color: #5bc6f8; margin-top: 20px; margin-left: 20px;"></i>
-                          <span class="fondos-musicales">Fondo Musical 1</span>
+                            <i class="fa fa-pause" aria-hidden="true" style="color: #5bc6f8;"></i>
+                          <span class="textos-musicales"> La flauta mágica</span>
                           <span class="numeros">0:31</span>
-                          <i class="fa fa-trash" aria-hidden="true"
-                            style="position: relative;margin-left: 250px ; color: #5bc6f8;"></i>
-                            <input type="hidden"  id="example1" value="20" max="100" min="0" step="1" />
+                          <i class="fa fa-trash" aria-hidden="true" style=" color: #5bc6f8; margin-left: 640px;"></i>
+                          <input type="hidden"  id="example1" value="20" max="100" min="0" step="1" />
+                          <span class="numeros-izquierda">3:14</span> 
                         </div>
                         
                         <div class="fondo-musical-dos">
-                          <i class="fa fa-play" aria-hidden="true"
-                            style="position: relative; color: #888888; margin-top: 20px; margin-left: 20px;"></i>
-                          <span class="fondos-musicales">Fondo Musical 2</span>
+                          <i class="fa fa-play" aria-hidden="true"></i>
+                          <span class="textos-musicales">Oda a la Alegría</span>
                           <span class="numeros">0:41</span>
-                          <i class="fa fa-trash" aria-hidden="true"
-                            style="position: relative;margin-left: 250px; color: #888888;"></i>
+                          <i class="fa fa-trash" aria-hidden="true" style="margin-left: 640px;"></i>
                             <input type="hidden"  id="esteban" value="20" max="100" min="0" step="1" />
+                            <span class="numeros-izquierda">3:14</span> 
                         </div>
                         
                         <div class="fondo-musical-dos">
-                            <i class="fa fa-play" aria-hidden="true"
-                              style="position: relative; color: #888888; margin-top: 20px; margin-left: 20px;"></i>
-                            <nav class="fondos-musicales">Fondo Musical 2</nav>
-                            <nav class="numeros">0:41</nav>
-                            <i class="fa fa-trash" aria-hidden="true"
-                              style="position: relative;margin-left: 250px; color: #888888;"></i>
+                          <i class="fa fa-play" aria-hidden="true"></i>
+                          <span class="textos-musicales">Marcha Fúnebre</span>
+                          <span class="numeros">0:41</span>
+                          <i class="fa fa-trash" aria-hidden="true" style="margin-left: 640px;"></i>
+                            <input type="hidden"  id="musical-tres" value="20" max="100" min="0" step="1" />
+                            <span class="numeros-izquierda">3:14</span> 
+                        </div>
+
+                        <div class="fondo-musical-dos">
+                          <i class="fa fa-play" aria-hidden="true"></i>
+                          <span class="textos-musicales">Nabucco</span>
+                          <span class="numeros">0:41</span>
+                          <i class="fa fa-trash" aria-hidden="true" style="margin-left: 640px;"></i>
+                            <input type="hidden"  id="musical-quatro" value="20" max="100" min="0" step="1" />
+                            <span class="numeros-izquierda">3:14</span> 
+                        </div>
+
+                          <div class="fondo-musical-dos">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <span class="textos-musicales">El ruido eterno</span>
+                            <span class="numeros">0:41</span>
+                            <i class="fa fa-trash" aria-hidden="true" style="margin-left: 640px;"></i>
+                              <input type="hidden"  id="musical-cinco" value="20" max="100" min="0" step="1" />
+                              <span class="numeros-izquierda">3:14</span> 
+                          </div>
+                          <div class="fondo-musical-dos">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <span class="textos-musicales"> Nuevo Mundo</span>
+                            <span class="numeros">0:41</span>
+                            <i class="fa fa-trash" aria-hidden="true" style="margin-left: 640px;"></i>
+                              <input type="hidden"  id="musical-seis" value="20" max="100" min="0" step="1" />
+                              <span class="numeros-izquierda">3:14</span> 
                           </div>
                         
-                          <div class="fondo-musical-dos">
-                            <i class="fa fa-play" aria-hidden="true"
-                              style="position: relative;; font-size: 25px; color: #888888; margin-top: 20px; margin-left: 20px;"></i>
-                            <nav class="fondos-musicales">Fondo Musical 2</nav>
-                            <nav class="numeros">0:41</nav>
-                            <i class="fa fa-trash" aria-hidden="true"
-                              style="position: relative;margin-left: 250px; color: #888888;"></i>
-                          </div>
-                        
-                          <div class="fondo-musical-dos">
-                            <i class="fa fa-play" aria-hidden="true"
-                              style="position: relative;; font-size: 25px; color: #888888; margin-top: 20px; margin-left: 20px;"></i>
-                            <nav class="fondos-musicales">Fondo Musical 2</nav>
-                            <nav class="numeros">0:41</nav>
-                            <i class="fa fa-trash" aria-hidden="true"
-                              style="position: relative;margin-left: 250px; color: #888888;"></i>
-                          </div>
+                      
                           
                         
                      
@@ -113,6 +121,48 @@
 
           rangejs( source, options );
         </script>
+
+           <script>
+            var source = document.getElementById( 'musical-tres' );
+            var options = {
+              css: true
+            };
+  
+            rangejs( source, options );
+          </script>
+
+          <script>
+            var source = document.getElementById( 'musical-quatro' );
+            var options = {
+              css: true
+            };
+  
+            rangejs( source, options );
+          </script>
+
+          <script>
+            var source = document.getElementById( 'musical-cinco' );
+            var options = {
+              css: true
+            };
+  
+            rangejs( source, options );
+          </script>
+          
+          
+          <script>
+            var source = document.getElementById( 'musical-seis' );
+            var options = {
+              css: true
+            };
+  
+            rangejs( source, options );
+          </script>
+          
+          
+          
+          
+        
     </body>
 
     </html>
