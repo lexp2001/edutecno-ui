@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lexp2001/edutecno-ui#readme",
   "devDependencies": {
-    "electron": "^7.1.10"
+    "electron": "^13.6.6"
   }
 }
